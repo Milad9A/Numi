@@ -12,10 +12,10 @@ class MockSharedPreferences extends Mock implements SharedPreferences {}
 
 void main() {
   MockSharedPreferences mockSharedPreferences;
-  NumberTriviaDataSourceImpl dataSource;
+  NumberTriviaLocalDataSourceImpl dataSource;
   setUp(() {
     mockSharedPreferences = MockSharedPreferences();
-    dataSource = NumberTriviaDataSourceImpl(
+    dataSource = NumberTriviaLocalDataSourceImpl(
       sharedPreferences: mockSharedPreferences,
     );
   });

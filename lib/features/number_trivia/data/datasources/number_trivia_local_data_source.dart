@@ -17,10 +17,10 @@ abstract class NumberTriviaLocalDataSource {
 
 const CACHED_NUMBER_TRIVIA = 'CACHED_NUMBER_TRIVIA';
 
-class NumberTriviaDataSourceImpl implements NumberTriviaLocalDataSource {
+class NumberTriviaLocalDataSourceImpl implements NumberTriviaLocalDataSource {
   final SharedPreferences sharedPreferences;
 
-  NumberTriviaDataSourceImpl({
+  NumberTriviaLocalDataSourceImpl({
     @required this.sharedPreferences,
   });
 
