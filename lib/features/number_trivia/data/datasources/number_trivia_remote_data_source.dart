@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:numi_clean_tdd/core/error/exceptions.dart';
-import 'package:numi_clean_tdd/features/number_trivia/data/models/number_trivia_model.dart';
+import '../../../../core/error/exceptions.dart';
+import '../models/number_trivia_model.dart';
 
 import '../../domain/entities/number_trivia.dart';
 import 'package:http/http.dart' as http;
